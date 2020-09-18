@@ -10,7 +10,7 @@ article {
   margin-left: auto;
 }
 
-p, ul, ol, dl, {
+p, ul, ol, dl {
   font-size: 1.2rem;
   line-height: 1.7rem;
   margin-bottom: 12px;
@@ -75,17 +75,16 @@ ol {
 #nutrition li {
   list-style-type: none;
   border-bottom: grey dotted 1px;
-  background-color: red;
   float: left;
   width: 48%;
 }
 
-#nutrition li:nth-child(odd) {
+#nutrition li :nth-child(odd) {
   clear: both;
   margin-right: 10px;
 }
 
-#nutrition .nutrivalue {
+#nutrition .nutri-value {
   float: right;
 }
 
